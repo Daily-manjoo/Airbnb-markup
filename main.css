@@ -1,0 +1,40 @@
+.wrap{
+    background-color: white;
+    width: 80%;
+    max-width: 1920px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+header{
+    background-color: black;
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+    color: white;
+}
+
+header .gnb{
+    display: grid;
+    grid-template-columns: 300px 1fr 300px;
+    grid-template-rows: auto auto; /*height에 대한 값*/
+    grid-template-areas:
+    "logo gnb-menu menu"
+    "search search search";
+}
+
+header .gnb .logo{
+    grid-area: logo;
+}
+
+header .gnb .gnb-menu{
+    grid-area: gnb-menu;
+}
+
+header .gnb .menu{
+    grid-area: menu;
+}
+
+header .gnb .search{
+    grid-area: search;
+}
