@@ -6,6 +6,14 @@ body{
     background-color: white;
 }
 
+body{
+    -ms-overflow-style: none;
+    }
+    
+   ::-webkit-scrollbar {
+     display: none;
+   }
+
 .mt-sm{
     margin-top: 25px;
 }
@@ -18,3 +26,10 @@ button{
     cursor: pointer;
 }
  
+.heading{
+    font-size: 2rem;
+    line-height: 2.5rem;
+    color: black;
+    font-weight: 900;
+}
+
