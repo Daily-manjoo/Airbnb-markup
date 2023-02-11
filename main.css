@@ -318,7 +318,6 @@ header .gnb .search .searchUl li span{
   .city{
     -ms-overflow-style: none; /* ie 유저 */
     scrollbar-width: none; /* firefox*/
-    
   }
 
   /* chrhome */
